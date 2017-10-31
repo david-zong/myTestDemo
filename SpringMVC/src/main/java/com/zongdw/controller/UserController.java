@@ -17,7 +17,7 @@ import com.zongdw.entity.User;
 @Controller
 public class UserController {
 
-    @RequestMapping("")
+    @RequestMapping("/create")
     public String Create(Model model) {
         return "create";
     }

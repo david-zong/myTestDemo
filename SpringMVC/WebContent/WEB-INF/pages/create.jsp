@@ -23,8 +23,9 @@
                     tabindex="3">
             </p>
             <p id="buttons">
-                <input id="reset" type="reset" tabindex="4" value="取消"> <input
-                    id="submit" type="submit" tabindex="5" value="创建">
+                <input id="reset" type="reset" tabindex="4" value="取消"> 
+                <input id="submit" type="submit" tabindex="5" value="创建">
+                <a href="index">返回</a>
             </p>
         </fieldset>
     </form>

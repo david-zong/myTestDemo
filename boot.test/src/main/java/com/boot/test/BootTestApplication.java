@@ -23,6 +23,10 @@ public class BootTestApplication {
 	String com() {
 		return "hello world bb";
 	}
+	@RequestMapping("/")
+	String index() {
+		return "hello world index";
+	}
 
 	/**
 	 * @param args
